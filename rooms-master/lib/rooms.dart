@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:args/args.dart';
 
-List<Room> rooms = [4]; // A room can only have 4 occupants
+List<Room> rooms = []; // A room can only have 4 occupants
 
 void getUserInformation(List<String> arguments) {
   var roomNames = _getRoomNamesFromArguments(arguments);
